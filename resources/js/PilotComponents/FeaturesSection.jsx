@@ -40,6 +40,52 @@ const FeaturesSection = () => {
                             </div>
                         </div>
                         {/* item 01 end */}
+                        {/* item 02 start */}
+                        <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                            {/* heading */}
+                            <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                                <div className="flex items-center space-x-2">
+                                    <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">02</div>
+                                    <h3 className="text-base font-bold md:hidden">
+                                        Advanced built-in reports
+                                    </h3>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 className="hidden mb-4 text-lg font-bold md:block">
+                                    Advanced built-in reports
+                                </h3>
+                                <p className="text-darkGrayishBlue">
+                                    Set internal delivery estimates and track progress toward
+                                    company goals. Our customisable dashboard helps you build out
+                                    the reports you need to keep key stakeholders informed.
+                                </p>
+                            </div>
+                        </div>
+                        {/* item 02 end */}
+                        {/* item 03 start */}
+                        <div className="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                            {/* heading */}
+                            <div className="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                                <div className="flex items-center space-x-2">
+                                    <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">03</div>
+                                    <h3 className="text-base font-bold md:hidden">
+                                        Everything you need in one place
+                                    </h3>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 className="hidden mb-4 text-lg font-bold md:block">
+                                    Everything you need in one place
+                                </h3>
+                                <p className="text-darkGrayishBlue">
+                                    Stop jumping from one service to another to communicate, store
+                                    files, track tasks and share documents. Manage offers an
+                                    all-in-one team productivity solution.
+                                </p>
+                            </div>
+                        </div>
+                        {/* item 03 end */}
                     </div>
                 </div>
             </section>
