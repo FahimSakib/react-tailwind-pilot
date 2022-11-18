@@ -1,3 +1,4 @@
+import CTASection from '@/PilotComponents/CTASection'
 import FeaturesSection from '@/PilotComponents/FeaturesSection'
 import HeroSection from '@/PilotComponents/HeroSection'
 import Navbar from '@/PilotComponents/navbar'
@@ -11,6 +12,7 @@ const pilot = () => {
       <HeroSection />
       <FeaturesSection />
       <TestimonialsSection />
+      <CTASection />
     </>
   )
 }
